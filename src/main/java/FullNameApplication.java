@@ -15,12 +15,12 @@ public class FullNameApplication {
 
         String fullName = firstName;
 
-        if (!middleName.isEmpty()) {
+        if (!middleName.isEmpty()) { // !middle.isEmpty -> Checks if middle is not empty
             fullName += " " + middleName;
         }
         fullName += " " + lastName;
 
-        if (!suffix.isEmpty()) {
+        if (!suffix.isEmpty()) { // !suffix.isEmpty -> Checks if suffix is not empty
             fullName += ", " + suffix;
         }
         System.out.println("Full Name: " + fullName);
